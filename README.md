@@ -7,7 +7,7 @@ This project is a cooperation of C&M of the Institute for Technology in Karlsruh
 You can see more information in the thesis paper.
 If you still need more information, please feel free to contact me at kontakt@the-morpheus.de.
 
-# USAGE with DOCKER
+### USAGE with DOCKER
 If not already done, install docker from [here](https://www.docker.com/get-started)
 
 Use the Dockerfile to create a docker image:
@@ -16,7 +16,7 @@ docker build -t evaluatormicroservice .
 docker run -p 1337:1337 evaluatormicroservice
 ```
 
-# USAGE without DOCKER
+### USAGE without DOCKER
 Get [Python 3](https://www.python.org/) and [Pip](https://pip.pypa.io/en/stable/installing/).
 Then do:
 ```sh
