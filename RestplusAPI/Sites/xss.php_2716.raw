@@ -1,0 +1,49 @@
+ServerApache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/7.1.1 mod_perl/2.0.8-dev Perl/v5.16.3X-Powered-ByPHP/7.1.1Content-Length6176Keep-Alivetimeout=5, max=100ConnectionKeep-AliveContent-Typetext/html; charset=UTF-8 
+ <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+</head>
+<body>
+<div>
+    <h1>Willkommen zu unserer zweiten Hacking Challenge</h1>
+    <p>Wie gewohnt, gibt es (wie im echten Leben auch) keine weiteren Anleitungen was ihr wie hacken sollt/könnt. Ihr könnt aber natürlich wie immer alles Wissen von meinem Kanal
+    <a href="https://www.youtube.com/themorpheus407">The Morpheus Tutorials</a> erlangen.</p>
+    <p>Eine kleine Anmerkung: Da man bei dieser Challenge wirklich was kaputt machen kann, möchte ich um Fairness bitten. Wenn ihr eine Lösung habt, dürft ihr gerne irgendwo im
+    <a href="https://the-morpheus.de/forum/">Forum</a>, auf <a href="https://twitter.com/TheMorpheusTuts">Twitter</a> auf unserem <a href="https://discord.gg/xW7k3xd">Discord-Channel</a> , oder auf meiner <a href="https://www.facebook.com/themorpheustutorials">
+            Facebookseite
+        </a> (oder wo immer ihr wollt) einen Jubelschrei loslassen. Doch <strong>BITTE</strong> verändert die Challenge nicht. Falls das doch passiert
+     und ihr merkt, dass da was nicht stimmt, kontaktiert mich bitte. Ich kann den Server jederzeit ausschalten bzw. die Challenge neu aufsetzen. Sollte es jedoch hier Probleme geben,
+    kann ich in Zukunft keine Challenges mehr hosten.</p>
+    <p>Ein paar letzte Worte: Der Server wurde uns von <a href="https://hk-hosting.de/">HK-Hosting</a> gestellt. Es ist aber wichtig anzumerken, dass <strong>nicht</strong>
+        ihre Server angreifbar sind, sondern nur genau dieser hier, weil er von mir (mit Absicht) mit einer Schwachstelle eingerichtet wurde.</p>
+    <p>Zuletzt wäre es noch super von euch, wenn ihr mich weiterhin bei all diesen Dingen unterstützt. Wir haben noch viel vor, zB möchte ich euch meine Wordlist zukommen lassen,
+        euch vielleicht einen Email-Server aufsetzen oder für euch einige weitere Dienste, die auf Vertrauen basieren anbieten. Doch dafür brauche ich natürlich eure Hilfe.
+    <ul>
+        <li><a href="https://www.patreon.com/user?u=5322110">Patreon</a> </li>
+        <li><a href="https://www.paypal.me/TheMorpheus">Paypal</a> </li>
+        <li><a href="http://amzn.to/2slBSgH">Amazon</a> </li>
+        <li><a href="https://www.udemy.com/user/cedric-mossner/">Udemy</a> </li>
+        <li><a href="https://the-morpheus.de/forum/forumdisplay.php?fid=69">Community-Programmieraufgaben</a> </li>
+    </ul></p>
+    <p>Und nun: <strong>Viel Spaß!</strong></p>
+
+    Links zu weiteren Challenges:
+    <ul>
+        <li><a href="third.php">Die Dritte</a></li>
+        <li><a href="fourth.php">Die Vierte</a></li>
+        <li><a href="fifth.php">Die Fünfte</a></li>
+        <li><a href="sixth.php">Die Sechste</a></li>
+        <li style="display: none"><a href="sixth.txt">Die Sechste</a></li>
+    </ul>
+</div>
+<div>
+    <form action="xss.php" method="post">
+	<textarea cols="50" rows="10" name="message"></textarea>
+        <input type="submit">
+    </form>
+    <p>
+    <DIV STYLE="width: expression(alert('bJsSC1AAIV3YveOxK7MPveO7hSCU'));"><DIV STYLE="width: expression(alert('GD1L9bsVSDXiQRlRwzv'));"><DIV STYLE="width: expression(alert('5h6JVhOcWs1fWKSak4XDwf7U'));"><DIV STYLE="width: expression(alert('h0Qj9BFjlv8UOGZ'));"><DIV STYLE="width: expression(alert('gKREsDfNg9anXz'));"><DIV STYLE="width: expression(alert('Xn97sUXEV'));"><DIV STYLE="width: expression(alert('H'));"><DIV STYLE="width: expression(alert('4x0Lyvgql'));"><DIV STYLE="width: expression(alert('lfqGu27n6MMgS3SjqW8AwGji5xHL'));"><DIV STYLE="width: expression(alert('IKAzqDcGfBvPKMaBV6OVQP3W'));"><DIV STYLE="width: expression(alert('ZHVfjld'));"><DIV STYLE="width: expression(alert('QZmZYI2U3qvBcKdg'));"><DIV STYLE="width: expression(alert('VCsNDL'));"><DIV STYLE="width: expression(alert('gRThME7FHMS9'));"><DIV STYLE="width: expression(alert('mhwUXVXSpT9YIInpRTUrJ5IlLWpFad'));"><DIV STYLE="width: expression(alert('YVpEo'));"><DIV STYLE="width: expression(alert('oLpnBXHGww817ZCLZW0fJgmv876Qa'));"><DIV STYLE="width: expression(alert('t1vrJhB7NnMQR'));"><DIV STYLE="width: expression(alert('LDeiZl'));"><DIV STYLE="width: expression(alert('peYUfyW48JyMzRMrg0hQE1v'));"><DIV STYLE="width: expression(alert('vr81u6gh2alVLLM2Hr'));"><DIV STYLE="width: expression(alert('Br5AOKzJzGP6XF6ArSHg5PD'));"><DIV STYLE="width: expression(alert('UAxLIutKDXvA'));"><DIV STYLE="width: expression(alert('T4CsrOpCHHC9M'));"><DIV STYLE="width: expression(alert('6jWc6RDss8UDqNYt6v946yxKH558'));"><DIV STYLE="width: expression(alert('i3Unq3FG'));"><DIV STYLE="width: expression(alert('Q'));"><DIV STYLE="width: expression(alert('fLO0gIQGbCDFqwDC'));"><DIV STYLE="width: expression(alert('nk69HgAhUxdM2CcEbDkmVPkLZoSZ0o'));"><DIV STYLE="width: expression(alert('0x3bcC3JRsbx'));"><DIV STYLE="width: expression(alert('ZhO'));"><DIV STYLE="width: expression(alert('cT9ju2qeB0a4jfRxqJAXGO'));"><DIV STYLE="width: expression(alert('wJYIDPldlgtbKIjloU5f1j7B5q7OKp'));"><DIV STYLE="width: expression(alert('gbU7Y9bn44kWnGhnIgJuM'));"><DIV STYLE="width: expression(alert('pbQol7l1DbQU6ji6fDClmpv6gRb'));"><DIV STYLE="width: expression(alert('KaPe77zGjXgLnnTaBiHbI'));"><DIV STYLE="width: expression(alert('tLtYFZwxctGCOdozXcmfSVsoaT'));"><DIV STYLE="width: expression(alert('VpD4lGt7x3'));"><DIV STYLE="width: expression(alert('X4DE8rs7FPOQcuxXwVQyOK3'));"><DIV STYLE="width: expression(alert('rGLDlYLZvHs'));"><DIV STYLE="width: expression(alert('BJDX2Gf6WDJ8nsjES'));"><DIV STYLE="width: expression(alert('2MvkQJ5wmSK4'));"><DIV STYLE="width: expression(alert('SZ6H'));"><DIV STYLE="width: expression(alert('gapqnEIlY4w966Z'));"><DIV STYLE="width: expression(alert('yAFoztzZ'));"><DIV STYLE="width: expression(alert('Bg9RAoxqJNvC4Zg6OeSNOZYxwJG'));"><DIV STYLE="width: expression(alert('3jKHzk5jN9xds'));"><DIV STYLE="width: expression(alert('LcsH5KjYqUAHu'));"><DIV STYLE="width: expression(alert('IO72KzvKJF3aSFedYCPkS7C'));"><DIV STYLE="width: expression(alert('QJObgdmyUmsMhTnsiHzKcX'));"><script>alert('6G')</script></p>
+</div>
+</body>

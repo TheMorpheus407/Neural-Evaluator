@@ -1,0 +1,29 @@
+{
+    "trainexamples":"traindata.txt",
+    "eps_end":0.05,
+    "eps_start":0.9,
+    "eps_steps":100,
+    "batch_size":1,
+    "batch_epochs":256,
+    "gamma":0.9,
+    "hidden_size":256,
+    "num_lstm_layers":2,
+    "dropout":0.2,
+    "optimizer":"rms",
+    "learning_rate":0.1,
+    "living_reward":0.2,
+    "loss_punishment":1,
+    "win_factor":1,
+    "weight_decay":0.1,
+    "use_rnns":"False",
+
+    "capacity":10000,
+    "num_epochs":4000,
+    "base_reward":100,
+    "filename":"neuralpayload_rl_lstm_noactivation_pretrained_config001_v0.02.pt",
+    "supervised":"True",
+    "attack_url":"http://localhost/SQLInjectionVuln/index.php",
+    "base_injection":{"user":"admin", "password":"ZAP"},
+
+    "website_attacks": "website_attacks.txt"
+}

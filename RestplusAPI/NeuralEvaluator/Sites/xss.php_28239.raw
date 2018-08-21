@@ -1,0 +1,49 @@
+ServerApache/2.4.25 (Unix) OpenSSL/1.0.2j PHP/7.1.1 mod_perl/2.0.8-dev Perl/v5.16.3X-Powered-ByPHP/7.1.1Content-Length3197Keep-Alivetimeout=5, max=100ConnectionKeep-AliveContent-Typetext/html; charset=UTF-8 
+ <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+</head>
+<body>
+<div>
+    <h1>Willkommen zu unserer zweiten Hacking Challenge</h1>
+    <p>Wie gewohnt, gibt es (wie im echten Leben auch) keine weiteren Anleitungen was ihr wie hacken sollt/könnt. Ihr könnt aber natürlich wie immer alles Wissen von meinem Kanal
+    <a href="https://www.youtube.com/themorpheus407">The Morpheus Tutorials</a> erlangen.</p>
+    <p>Eine kleine Anmerkung: Da man bei dieser Challenge wirklich was kaputt machen kann, möchte ich um Fairness bitten. Wenn ihr eine Lösung habt, dürft ihr gerne irgendwo im
+    <a href="https://the-morpheus.de/forum/">Forum</a>, auf <a href="https://twitter.com/TheMorpheusTuts">Twitter</a> auf unserem <a href="https://discord.gg/xW7k3xd">Discord-Channel</a> , oder auf meiner <a href="https://www.facebook.com/themorpheustutorials">
+            Facebookseite
+        </a> (oder wo immer ihr wollt) einen Jubelschrei loslassen. Doch <strong>BITTE</strong> verändert die Challenge nicht. Falls das doch passiert
+     und ihr merkt, dass da was nicht stimmt, kontaktiert mich bitte. Ich kann den Server jederzeit ausschalten bzw. die Challenge neu aufsetzen. Sollte es jedoch hier Probleme geben,
+    kann ich in Zukunft keine Challenges mehr hosten.</p>
+    <p>Ein paar letzte Worte: Der Server wurde uns von <a href="https://hk-hosting.de/">HK-Hosting</a> gestellt. Es ist aber wichtig anzumerken, dass <strong>nicht</strong>
+        ihre Server angreifbar sind, sondern nur genau dieser hier, weil er von mir (mit Absicht) mit einer Schwachstelle eingerichtet wurde.</p>
+    <p>Zuletzt wäre es noch super von euch, wenn ihr mich weiterhin bei all diesen Dingen unterstützt. Wir haben noch viel vor, zB möchte ich euch meine Wordlist zukommen lassen,
+        euch vielleicht einen Email-Server aufsetzen oder für euch einige weitere Dienste, die auf Vertrauen basieren anbieten. Doch dafür brauche ich natürlich eure Hilfe.
+    <ul>
+        <li><a href="https://www.patreon.com/user?u=5322110">Patreon</a> </li>
+        <li><a href="https://www.paypal.me/TheMorpheus">Paypal</a> </li>
+        <li><a href="http://amzn.to/2slBSgH">Amazon</a> </li>
+        <li><a href="https://www.udemy.com/user/cedric-mossner/">Udemy</a> </li>
+        <li><a href="https://the-morpheus.de/forum/forumdisplay.php?fid=69">Community-Programmieraufgaben</a> </li>
+    </ul></p>
+    <p>Und nun: <strong>Viel Spaß!</strong></p>
+
+    Links zu weiteren Challenges:
+    <ul>
+        <li><a href="third.php">Die Dritte</a></li>
+        <li><a href="fourth.php">Die Vierte</a></li>
+        <li><a href="fifth.php">Die Fünfte</a></li>
+        <li><a href="sixth.php">Die Sechste</a></li>
+        <li style="display: none"><a href="sixth.txt">Die Sechste</a></li>
+    </ul>
+</div>
+<div>
+    <form action="xss.php" method="post">
+	<textarea cols="50" rows="10" name="message"></textarea>
+        <input type="submit">
+    </form>
+    <p>
+    uYiNfmyGJXYh4bZlgLRRwdC2uw</p>
+</div>
+</body>

@@ -1,0 +1,12 @@
+FROM ubuntu:latest
+
+RUN apt-get update -y
+RUN apt-get install -y python-pip python-dev build-essential
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+RUN pip install http://download.pytorch.org/whl/cpu/torch-0.4.0-cp36-cp36m-linux_x86_64.whl 
+RUN pip install torchvision
+EXPOSE 80
+ENTRYPOINT ["python"]
+CMD ["app.py"]
