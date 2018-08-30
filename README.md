@@ -4,7 +4,7 @@ This is a wrapping microservice API for using the neural network for evaluating 
 It uses Python Flask for the API and PyTorch for the neural network.
 
 This project is a cooperation of C&M of the Institute for Technology in Karlsruhe, Germany and IC-Consult. It was created as part of the master thesis of Cedric Mössner.
-You can see more information in the thesis paper.
+You can see more information in the thesis paper found here:https://drive.google.com/open?id=1Gqq4D6mqnqFaYFtwZKSPALJu1LcqcU8z 
 If you still need more information, please feel free to contact me at kontakt@the-morpheus.de.
 
 ### USAGE with DOCKER
